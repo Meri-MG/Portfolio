@@ -126,7 +126,6 @@ hr {
   align-items: center;
 }
 
-
 .works h2 {
   width: 250px;
   color: #7d73fc;
@@ -168,11 +167,13 @@ hr {
   align-items: center;
     
 }
+
 .grid-container > div {
   width: 32px;
   color: #fff;
   font-weight: 500;
 }
+
 .vl {
   width: 1px;
   height: 40px;
@@ -207,6 +208,4 @@ hr {
 
 .works-wrapper {
   background-image: url(../images/portBG.svg);
-  background-position: cover;
-  background-repeat: repeat-y;
 }
