@@ -204,3 +204,9 @@ body {
 .btn:disabled {
     background-color: #2a2b33;
 }
+
+.works-wrapper {
+    background-image: url(../images/portBG.svg);
+    background-position: cover;
+    background-repeat: repeat-y;
+}
