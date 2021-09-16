@@ -164,7 +164,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(4, 1fr) 2fr repeat(2, 1fr);
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .grid-container > div {
