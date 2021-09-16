@@ -121,8 +121,8 @@ hr {
 }
 
 .work-image {
-    width: 100px;
-    color: #c4c4c4;
+  width: 100px;
+  color: #c4c4c4;
 }
 
 .work-images {
@@ -169,7 +169,7 @@ hr {
   display: grid;
   grid-template-columns: 1fr 0.5fr 1fr 0.5fr 2fr 0.5fr 1fr;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   padding-left: 0;
 }
 
