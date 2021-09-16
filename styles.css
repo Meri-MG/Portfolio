@@ -164,8 +164,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(4, 1fr) 2fr repeat(2, 1fr);
   justify-content: center;
-  align-items: center;
-    
+  align-items: center;  
 }
 
 .grid-container > div {
@@ -194,7 +193,7 @@ hr {
 }
 
 .btn:hover {
-  box-shadow:  0 0 50px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
   transform: translateY(-0.25em);
 }
 
