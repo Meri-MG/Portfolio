@@ -6,7 +6,7 @@ body {
   background-image: url(../images/topcircles.png);
   background-repeat: no-repeat;
   background-color: #191765;
-  max-width: 375px;
+  width: 375px;
 }
 
 .flex-wrapper {
@@ -20,7 +20,7 @@ ul {
 }
 
 .container {
-  max-width: 327px;
+  width: 327px;
   margin-left: 24px;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ a {
 }
 
 h1 {
-  max-width: 327px;
+  width: 327px;
   color: #7d73fc;
   font-weight: 700;
   font-size: 35px;
@@ -54,7 +54,7 @@ h1 {
 }
 
 .headline h2 {
-  max-width: 327px;
+  width: 327px;
   color: #edecff;
   font-weight: 500;
   font-size: 32px;
@@ -64,7 +64,7 @@ h1 {
 }
 
 .headline p {
-  max-width: 327px;
+  width: 327px;
   height: 170px;
   color: #c8c8d4;
   font-weight: 400;
@@ -115,9 +115,14 @@ hr {
 }
 
 .works img:first-child {
-  width: 18px;
+  width: 15px;
   color: #c4c4c4;
   margin-right: 20px;
+}
+
+.work-image {
+    width: 100px;
+    color: #c4c4c4;
 }
 
 .work-images {
@@ -162,12 +167,13 @@ hr {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr) 2fr repeat(2, 1fr);
+  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 2fr 0.5fr 1fr;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  padding-left: 0;
 }
 
-.grid-container > div {
+.grid-container .item1 {
   width: 32px;
   color: #fff;
   font-weight: 500;
