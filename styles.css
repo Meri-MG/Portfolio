@@ -248,7 +248,8 @@ textarea {
   resize: none;
 }
 
-input textarea {
+input,
+textarea {
   padding: 15px 16px;
   width: 85%;
   border: 1px solid #9490ff;
