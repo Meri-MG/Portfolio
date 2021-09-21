@@ -5,46 +5,60 @@ In this project we are meant to make mobile version of portfolio according to [f
 ![Works Section](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Contact/images/Works.png)
 ![Contact Form](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Contact/images/ContactForm.png)
 
+project contains several sections:
+
+
+- Headline with about info and address to social pages.
+- Works section with according images.
+- Footer with Contact Form.
+
 # Built with
-HTML5
-CSS3
-Git and GitHub
-VScode
+- HTML5
+- CSS3
+- Git and GitHub
+- VScode
 
 # Live Demo
 To see the live Demo of the project click [here](https://meri-mg.github.io/Portfolio-mobile-version/)
 
 # Getting Started
-- Prerequisites
-Create an account on github
+Prerequisites:
 
-Install gitbash or use git on the command line.
 
-Use an IDE of your preference such as VScode.
+- Create an account on github
 
-- Steps to follow
-Choose the repository
+- Install gitbash or use git on the command line.
 
-Choose a folder in your local machine where you want this repository to be copied
+- Use an IDE of your preference such as VScode.
 
-Clone the repository to your locaL machine.
+Steps to follow:
+
+
+- Choose the repository
+
+- Choose a folder in your local machine where you want this repository to be copied
+
+- Clone the repository to your locaL machine.
 It should look similar to this git clone https://github.com/smithj/azure-docs.git Enter your github credentials if prompted.
 
-Open the index.html file with the browser of your preference.
+- Open the index.html file with the browser of your preference.
 
 
-# Author
-GitHub: Meri-MG 
-LinkedIn: Meri Gogichashvili
+# Author1 - Meri Gogichashvili
+- GitHub: [Meri-MG](https://github.com/Meri-MG) 
+- LinkedIn: [Meri Gogichashvili](https://www.linkedin.com/feed/)
+# Author2 - Gints Misins
+- GitHub: [GintsM](https://github.com/GintsM) 
 
 # Contributing
-Contributions, issues, and feature requests are welcome!
+- Contributions, issues, and feature requests are welcome!
+- Feel free to check the [issues page](https://github.com/Meri-MG/Portfolio-mobile-version/issues).
 
 # Show your support
 Give a star if you like this project!
 
 # Acknowledgments
-Thanks to my collaborator Gints Misins.
+Thanks to my teammates, learning and coding partners.
 
 # License
 This project is MIT licensed.
