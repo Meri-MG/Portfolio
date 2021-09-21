@@ -4,7 +4,6 @@ In this project I had to choose a mobile template presented by Figma. The templa
 Built with
 Languages used: CSS and HTML Frameworks: none Technologies: Google Chrome Checked code with the Linters and Autoprefixer.
 
-Live Demo
 [Live Demo Link](https://meri-mg.github.io/Portfolio-mobile-version/)
 
 Getting Started
