@@ -214,3 +214,61 @@ hr {
 .works-wrapper {
   background-image: url(../images/portBG.svg);
 }
+
+footer {
+  width: 327px;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#conttitle {
+  color: #9390ff;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+#conttext {
+  text-align: center;
+  color: #f5f5ff;
+  font-size: 16px;
+  line-height: 24px;
+  width: 85%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 15px 16px;
+  width: 85%;
+  border: 1px solid #9490ff;
+  margin-top: 24px;
+}
+
+textarea {
+  resize: none;
+}
+
+form :last-child {
+  align-self: center;
+}
+
+#lastul {
+  padding: 0;
+}
+
+.social {
+  padding: 15px;
+}
+
+#mymail {
+  color: #ebebff;
+  font-size: 20px;
+  margin-bottom: 27px;
+}
