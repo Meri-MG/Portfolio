@@ -1,11 +1,11 @@
 # Portfolio-mobile-version
-In this project we are meant to make mobile version of portfolio according to [figma templates](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122)
+> In this project we are meant to make mobile version of portfolio according to [figma templates](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122)
 
 ![Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Contact/images/headline.png)
 ![Works Section](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Contact/images/Works.png)
 ![Contact Form](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Contact/images/ContactForm.png)
 
-project contains several sections:
+# Project contains several sections:
 
 
 - Headline with about info and address to social pages.
@@ -19,10 +19,10 @@ project contains several sections:
 - VScode
 
 # Live Demo
-To see the live Demo of the project click [here](https://meri-mg.github.io/Portfolio-mobile-version/)
+> To see the live Demo of the project click [here](https://meri-mg.github.io/Portfolio-mobile-version/)
 
 # Getting Started
-Prerequisites:
+# Prerequisites:
 
 
 - Create an account on github
@@ -31,7 +31,9 @@ Prerequisites:
 
 - Use an IDE of your preference such as VScode.
 
-Steps to follow:
+- Install node.js
+
+# Steps to follow:
 
 
 - Choose the repository
@@ -43,19 +45,19 @@ It should look similar to this git clone https://github.com/smithj/azure-docs.gi
 
 - Open the index.html file with the browser of your preference.
 
-
-# Author1 - Meri Gogichashvili
+# Authors
+# 👤 Meri Gogichashvili
 - GitHub: [Meri-MG](https://github.com/Meri-MG) 
 - LinkedIn: [Meri Gogichashvili](https://www.linkedin.com/feed/)
-# Author2 - Gints Misins
+# 👤 Gints Misins
 - GitHub: [GintsM](https://github.com/GintsM) 
 
-# Contributing
+## 🤝 Contributing
 - Contributions, issues, and feature requests are welcome!
 - Feel free to check the [issues page](https://github.com/Meri-MG/Portfolio-mobile-version/issues).
 
 # Show your support
-Give a star if you like this project!
+Give a ⭐ if you like this project!
 
 # Acknowledgments
 Thanks to my teammates, learning and coding partners.
