@@ -15,14 +15,14 @@ VScode
 To see the live Demo of the project click [here](https://meri-mg.github.io/Portfolio-mobile-version/)
 
 # Getting Started
-Prerequisites
+- Prerequisites
 Create an account on github
 
 Install gitbash or use git on the command line.
 
 Use an IDE of your preference such as VScode.
 
-Steps to follow
+- Steps to follow
 Choose the repository
 
 Choose a folder in your local machine where you want this repository to be copied
@@ -37,14 +37,14 @@ Open the index.html file with the browser of your preference.
 GitHub: Meri-MG 
 LinkedIn: Meri Gogichashvili
 
-Contributing
+# Contributing
 Contributions, issues, and feature requests are welcome!
 
-Show your support
+# Show your support
 Give a star if you like this project!
 
-Acknowledgments
+# Acknowledgments
 Thanks to my collaborator Gints Misins.
 
-License
+# License
 This project is MIT licensed.
