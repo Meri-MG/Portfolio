@@ -105,6 +105,10 @@ hr {
   line-height: 24px;
 }
 
+.flex-icons {
+  width: 87.2%;
+}
+
 .flex-icons ul {
   display: flex;
   justify-content: space-between;
@@ -273,4 +277,43 @@ form :last-child {
   color: #ebebff;
   font-size: 20px;
   margin-bottom: 27px;
+}
+
+.work-image-icons {
+  display: none;
+}
+@media (min-width: 550px) {
+  .about-wrapper {
+    width: 447px;
+  }
+
+  .headline {
+		align-items: center;
+}
+  .info-wrapper {
+    justify-content: flex-start;
+  }  
+
+  .flex-icons li a {
+    margin-right: 20px;
+  }
+
+  .flex-icons ul {
+    display: flex;
+  }
+  
+  .flex-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .work-image-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .work-images {
+    display: none;
+  }
 }
