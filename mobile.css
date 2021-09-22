@@ -6,7 +6,7 @@ body {
   background-image: url(../images/topcircles.png);
   background-repeat: no-repeat;
   background-color: #191765;
-  width: 375px;
+  min-width: 375px;
 }
 
 .flex-wrapper {
@@ -20,8 +20,8 @@ ul {
 }
 
 .container {
-  width: 327px;
-  margin-left: 24px;
+  width: 87.2%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +33,7 @@ a {
 
 .logo {
   color: #fff;
-  width: 81px;
+  width: 22%;
   font-weight: 500;
   font-size: 18px;
 }
@@ -45,36 +45,39 @@ a {
 }
 
 h1 {
-  width: 327px;
+  width: 87.2%;
   color: #7d73fc;
   font-weight: 700;
   font-size: 35px;
   line-height: 72px;
   text-align: center;
+  margin: 12px auto;
 }
 
 .headline h2 {
-  width: 327px;
+  width: 87.2%;
   color: #edecff;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
   margin-top: 12px;
+  margin: 12px auto;
 }
 
 .headline p {
-  width: 327px;
+  width: 87.2%;
   height: 170px;
   color: #c8c8d4;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
+  margin: 40px auto;
 }
 
 hr {
-  width: 327px;
+  width: 87.2%;
   background-color: #646369;
   border: none;
   height: 1px;
@@ -86,7 +89,7 @@ hr {
 }
 
 .list-header {
-  width: 107px;
+  width: 29%;
   color: #7d73fc;
   font-weight: 500;
   font-size: 12px;
@@ -95,7 +98,7 @@ hr {
 }
 
 .list {
-  width: 73.55px;
+  width: 20%;
   color: #f5f5ff;
   font-weight: 400;
   font-size: 15px;
@@ -121,7 +124,7 @@ hr {
 }
 
 .work-image {
-  width: 100px;
+  width: 27%;
   color: #c4c4c4;
 }
 
@@ -132,36 +135,35 @@ hr {
 }
 
 .works h2 {
-  width: 250px;
+  width: 67%;
   color: #7d73fc;
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
-  text-align: start;
+  margin: 24px;
 }
 
 .placeholder {
-  width: 327px;
-  margin-top: 48px;
+  width: 87.2%;
+  margin: 48px 24px;
 }
 
 .works h3 {
-  width: 327px;
+  width: 87.2%;
   color: #fff;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
-  margin: 24px 24px 24px 0;
-  text-align: start;
+  margin: 24px;
 }
 
 .works p {
-  width: 327px;
+  width: 87.2%;
   color: #dcdce8;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  margin: 24px 24px 24px 0;
+  margin: 24px;
   text-align: start;
 }
 
@@ -171,6 +173,7 @@ hr {
   justify-content: center;
   align-items: center;
   padding-left: 0;
+  margin: 24px;
 }
 
 .grid-container .item1 {
@@ -192,9 +195,7 @@ hr {
   background-color: #7d73fc;
   color: #edecff;
   border: none;
-  margin-top: 24px;
-  margin-bottom: 40px;
-  padding: 12px;
+  margin: 24px;
   font-size: 12px;
 }
 
@@ -216,7 +217,7 @@ hr {
 }
 
 footer {
-  width: 327px;
+  width: 87.2%;
   margin-left: 24px;
   display: flex;
   flex-direction: column;
