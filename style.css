@@ -44,6 +44,10 @@ a {
   font-size: 25px;
 }
 
+.mobile-hidden-menu {
+  display: none;
+}
+
 h1 {
   width: 87.2%;
   color: #7d73fc;
@@ -377,4 +381,22 @@ form {
   justify-content: center;
   align-items: center;
 }
+
+
+}
+
+@media (min-width: 800px) {
+  .mobile-hidden-menu {
+    display: flex;
+    padding-left: 32px;
+    color: #fff;
+  }
+  .fa-bars {
+    display: none;
+  }
+
+  .nav-ul {
+    display: flex;
+  }
+
 }
