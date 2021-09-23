@@ -337,7 +337,7 @@ form :last-child {
   }
 
   .headline {
-		align-items: center;
+    align-items: center;
   }
 
   .info-wrapper {
@@ -389,21 +389,21 @@ form :last-child {
     align-items: center;
     width: 89%;
   }
-
- .last-hr {
+  
+  .last-hr {
     width: 100%;
     margin: 24px auto;
   }
 
- #lastul {
+  #lastul {
     width: 400px;
   }
 
- #mymail {
+  #mymail {
     width: 300px;
   }
 
- .last {
+  .last {
     display: flex;
     flex-direction: row;
     width: 100%;
