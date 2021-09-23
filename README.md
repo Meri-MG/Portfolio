@@ -4,8 +4,8 @@
 ![Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/headline.png)
 ![Works Section](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/Works.png)
 ![Contact Form](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/ContactForm.png)
-![Desktop-Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Desktop_Portfolio/images/Dheadline.png)
-![Desktop-Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/Desktop_Portfolio/images/DWork.png)
+![Desktop-Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/Dheadline.png)
+![Desktop-Works](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/DWork.png)
 
 # Project contains several sections:
 
