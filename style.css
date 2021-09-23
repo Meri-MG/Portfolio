@@ -1,7 +1,7 @@
 body {
   font-family: Roboto, sans-serif;
-  
-  
+
+
 }
 
 .wrapper {
@@ -128,7 +128,7 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 87.2%
+  width: 87.2%;
 }
 
 .flex-icons li a {
@@ -153,7 +153,6 @@ hr {
   align-items: center;
   margin-bottom: 40px;
   margin: 30px 0 40px 0;
-
 }
 
 .works-h2 {
@@ -316,7 +315,7 @@ form :last-child {
 
 @media (min-width: 600px) {
   .wrapper {
-    background-image: none
+    background-image: none;
   }
 
   .works-wrapper {
@@ -330,12 +329,12 @@ form :last-child {
     background-repeat: no-repeat;
   }
 
-.bgimage2 {
-  background-image: url(images/Group65.svg);
+  .bgimage2 {
+    background-image: url(images/Group65.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-}
+  }
 
   .about-wrapper {
     width: 447px;
@@ -343,7 +342,8 @@ form :last-child {
 
   .headline {
 		align-items: center;
-}
+  }
+
   .info-wrapper {
     justify-content: flex-start;
   }  
@@ -395,31 +395,30 @@ form :last-child {
   }
 
  .last-hr {
-   width: 100%;
-   margin: 24px auto;
- }
+    width: 100%;
+    margin: 24px auto;
+  }
 
  #lastul {
-  width: 400px;
- }
+    width: 400px;
+  }
 
  #mymail {
-  width: 300px;
- }
+   width: 300px;
+  }
 
  .last {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+  }
 
 form {
   justify-content: center;
   align-items: center;
 }
-
 
 }
 
@@ -445,7 +444,6 @@ form {
 }
 
 @media (min-width: 1120px) {
-  
   .image-stories {
     display: flex;
     flex-direction: row;
@@ -461,4 +459,5 @@ form {
     padding: 24px;
     height: max-content;
   }
+  
 }
