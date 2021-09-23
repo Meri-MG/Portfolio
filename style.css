@@ -6,11 +6,10 @@ body {
 
 .wrapper {
   min-width: 375px;
-  background-image: url(../images/topcircles.png);
+  background-image: url(images/topcircles.png);
   background-color: #191765;
   background-repeat: no-repeat;
-  background-position: 20% 80%;
-  background-size: 100%;
+  background-size: contain;
 }
 
 .flex-wrapper {
@@ -236,8 +235,8 @@ hr {
 }
 
 .works-wrapper {
-  background-image: url(../images/portBG.svg);
-  /* background-size: contain; */
+  background-image: url(images/portBG.svg);
+  background-repeat: no-repeat;
 }
 
 footer {
@@ -316,6 +315,14 @@ form :last-child {
 }
 
 @media (min-width: 600px) {
+  .wrapper {
+    background-image: none
+  }
+
+  .works-wrapper {
+    background-image: none;
+  }
+
   .bgImage {
     background-image: url(images/circlesheader.png);
     background-size: contain;
@@ -392,9 +399,18 @@ form :last-child {
    margin: 24px auto;
  }
 
+ #lastul {
+  width: 400px;
+ }
+
+ #mymail {
+  width: 300px;
+ }
+
  .last {
   display: flex;
   flex-direction: row;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
