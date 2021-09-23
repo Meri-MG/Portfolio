@@ -143,6 +143,7 @@ hr {
   align-items: center;
   margin-bottom: 40px;
   margin: 30px 0 40px 0;
+
 }
 
 .works-h2 {
@@ -225,6 +226,7 @@ hr {
 
 .works-wrapper {
   background-image: url(../images/portBG.svg);
+  /* background-size: contain; */
 }
 
 footer {
@@ -319,13 +321,14 @@ form :last-child {
   }
 
   .flex-icons ul {
-    display: flex;
+    justify-content: center;
   }
   
   .flex-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
   }
 
   .work-image-icons {
