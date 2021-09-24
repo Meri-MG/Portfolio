@@ -44,13 +44,19 @@ a {
 }
 
 @keyframes bounce {
-  0% {color: #fff;}
-  33% {color: #c4c4c4;}
-  66% {color: #7d73fc;}
-  100% {color: #5e42d7;}
+  0% {
+    color: #fff;
+  }
+  33% {
+    color: #c4c4c4;
+  }
+  66% {
+    color: #7d73fc;
+  }
+  100% {
+    color: #5e42d7;
+  }
 }
-
-
 
 .fa-bars {
   color: #fff;
@@ -402,7 +408,7 @@ form :last-child {
     align-items: center;
     width: 89%;
   }
-  
+
   .last-hr {
     width: 100%;
     margin: 24px auto;
