@@ -37,28 +37,6 @@ a {
   width: 22%;
   font-weight: 500;
   font-size: 18px;
-  animation-name: bounce;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  animation-delay: 2s;
-}
-
-@keyframes bounce {
-  0% {
-    color: #fff;
-  }
-
-  33% {
-    color: #c4c4c4;
-  }
-
-  66% {
-    color: #7d73fc;
-  }
-
-  100% {
-    color: #5e42d7;
-  }
 }
 
 .fa-bars {
@@ -79,6 +57,31 @@ h1 {
   line-height: 72px;
   text-align: center;
   margin: 12px auto;
+  animation: bounceIn 6s;
+  animation-iteration-count: 3;
+  animation-delay: 2s;
+}
+
+@keyframes bounceIn {
+  0% {
+    opacity: 1;
+    transform: scale(0.3);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .bg-image {
@@ -236,11 +239,14 @@ hr {
   border: none;
   margin: 24px auto;
   font-size: 12px;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .btn:hover {
   box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
-  transform: translateY(-1em);
+  transform: rotate(10deg) scale(1.1);
 }
 
 .btn:active {
@@ -447,6 +453,10 @@ form :last-child {
   }
 
   .mobile-hidden-menu:hover {
+    color: #7d73fc;
+  }
+
+  .fab:hover {
     color: #7d73fc;
   }
 
