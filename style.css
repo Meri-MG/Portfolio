@@ -65,8 +65,8 @@ h1 {
 @keyframes bounceIn {
   0% {
     opacity: 1;
-    transform: scale(.3);
-  } 
+    transform: scale(0.3);
+  }
 
   50% {
     opacity: 1;
@@ -75,7 +75,7 @@ h1 {
 
   70% {
     opacity: 1;
-    transform: scale(.9);
+    transform: scale(0.9);
   }
 
   100% {
@@ -240,7 +240,7 @@ hr {
   margin: 24px auto;
   font-size: 12px;
   transform: rotate(0deg) scale(1) translateZ(0);
-  transition: all 0.4s cubic-bezier(.8,1.8,.75,.75);
+  transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
@@ -451,7 +451,7 @@ form :last-child {
     padding-left: 32px;
     color: #fff;
   }
- 
+
   .mobile-hidden-menu:hover {
     color: #7d73fc;
   }
