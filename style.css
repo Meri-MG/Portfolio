@@ -37,7 +37,20 @@ a {
   width: 22%;
   font-weight: 500;
   font-size: 18px;
+  animation-name: bounce;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
+
+@keyframes bounce {
+  0% {color: #fff;}
+  33% {color: #c4c4c4;}
+  66% {color: #7d73fc;}
+  100% {color: #5e42d7;}
+}
+
+
 
 .fa-bars {
   color: #fff;
@@ -216,10 +229,10 @@ hr {
   font-size: 12px;
 }
 
-.btn:hover {
+/* .btn:hover {
   box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
-  transform: translateY(-0.25em);
-}
+  transform: translateY(-1em);
+} */
 
 .btn:active {
   background-color: #5e42d7;
@@ -389,7 +402,7 @@ form :last-child {
     align-items: center;
     width: 89%;
   }
-
+  
   .last-hr {
     width: 100%;
     margin: 24px auto;
