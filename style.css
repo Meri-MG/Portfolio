@@ -47,12 +47,15 @@ a {
   0% {
     color: #fff;
   }
+  
   33% {
     color: #c4c4c4;
   }
+
   66% {
     color: #7d73fc;
   }
+
   100% {
     color: #5e42d7;
   }
