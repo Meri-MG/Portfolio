@@ -21,7 +21,7 @@
 - VScode
 
 # Live Demo
-> To see the live Demo of the project click [here](https://meri-mg.github.io/Portfoli-Microverse/)
+> To see the live Demo of the project click [here](https://meri-mg.github.io/Portfolio-Microverse/)
 
 # Getting Started
 # Prerequisites:
