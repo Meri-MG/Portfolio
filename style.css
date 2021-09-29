@@ -234,8 +234,8 @@ hr {
 .btn {
   width: 89px;
   height: 48px;
-  background-color: #7d73fc;
-  color: #edecff;
+  background-color: #bfb3ef;
+  color: #2d1a7a;
   border: none;
   margin: 24px auto;
   font-size: 12px;
@@ -249,13 +249,13 @@ hr {
   transform: rotate(10deg) scale(1.1);
 }
 
-.btn:active {
+/* .btn:active {
   background-color: #5e42d7;
 }
 
 .btn:disabled {
   background-color: #2a2b33;
-}
+} */
 
 .works-wrapper {
   background-image: url(images/portBG.svg);
