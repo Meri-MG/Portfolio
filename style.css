@@ -453,11 +453,13 @@ form :last-child {
   }
 
   .mobile-hidden-menu:hover {
-    color: #7d73fc;
+    /* color: #7d73fc; */
+    border-bottom: 1px solid #fff;
   }
 
   .fab:hover {
-    color: #7d73fc;
+    /* color: #7d73fc; */
+    border-bottom: 1px solid #fff;
   }
 
   .fa-bars {
