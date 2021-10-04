@@ -234,8 +234,8 @@ hr {
 .btn {
   width: 89px;
   height: 48px;
-  background-color: #bfb3ef;
-  color: #2d1a7a;
+  background-color: #9390ff;
+  color: #fff;
   border: none;
   margin: 24px auto;
   font-size: 12px;
@@ -248,14 +248,6 @@ hr {
   box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
   transform: rotate(10deg) scale(1.1);
 }
-
-/* .btn:active {
-  background-color: #5e42d7;
-}
-
-.btn:disabled {
-  background-color: #2a2b33;
-} */
 
 .works-wrapper {
   background-image: url(images/portBG.svg);
@@ -390,6 +382,7 @@ form :last-child {
   .work-image-icons {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   .work-images {
@@ -453,8 +446,7 @@ form :last-child {
   }
 
   .mobile-hidden-menu:hover {
-    /* color: #7d73fc; */
-    border-bottom: 1px solid #fff;
+    text-decoration: underline;
   }
 
   .fab:hover {
