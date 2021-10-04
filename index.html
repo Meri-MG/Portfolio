@@ -36,11 +36,19 @@
                         <li><a href="#" class="mobile-hidden-menu" title="bar-menu">Contact</a></li>
                         <li><a href="#" class="mobile-hidden-menu" title="bar-menu"><i class="far fa-envelope"></i></a></li>
                 </ul>
+                
+                <ul id="menu" class="mobile-ul">
+                    <li class="times"><a id="closeIcon"><i class="fas fa-times"></i></a></li>
+                    <li class="mobile-menu"><a  href="#" ><span>Portfolio</span> <span class="arrows">></span></a></li>
+                    <li class="mobile-menu"><a href="#" ><span>About</span> <span class="arrows">></span></a></li>
+                    <li class="mobile-menu"><a href="#" ><span>Contact</span><span class="arrows">></span></a></li>
+                    
+                </ul>
                 </nav>
             </div>
         </header>
         <div class="bgImage">
-        <section class="container headline">
+        <section class="container headline" id="about">
             <h1>Meri Gogichashvili</h1>
             <h2>Software Developer</h2>
             <div class="about-wrapper">
@@ -111,7 +119,7 @@
 </div> 
         <div class="works-wrapper">
             <div class="bgimage2">
-            <section class="container works">
+            <section class="container works" id="portfolio">
                 <h2 class="works-h2">My Recent Work</h2>
                 <hr>
                 <div class="container image-stories">
@@ -192,7 +200,7 @@
         </div>
             </section>
         </div>
-            <footer class="container">
+            <footer class="container" id="contact">
                 <h2 id="conttitle">CONTACT US</h2>
                 <p id="conttext">If you have an application you are interested in 
                     developing, a feature that you need built or a project that needs coding.
@@ -229,5 +237,6 @@
             </footer>
         </div>  
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
