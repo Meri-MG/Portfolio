@@ -1,2 +1,5 @@
 # .gitignore
 node_modules/
+
+# vs code files
+.vscode/settings.json
