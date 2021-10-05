@@ -1,2 +1,10 @@
 # .gitignore
 node_modules/
+
+# vs code files
+.vscode/
+
+# linter files
+eslintrc.json
+stylelintrc.json
+.hintrc
