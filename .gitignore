@@ -2,4 +2,9 @@
 node_modules/
 
 # vs code files
-.vscode/settings.json
+.vscode/
+
+# linter files
+eslintrc.json
+stylelintrc.json
+.hintrc
