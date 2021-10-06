@@ -2,6 +2,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .wrapper {
   min-width: 375px;
   background-image: url(images/topcircles.png);
@@ -60,7 +64,7 @@ a {
   top: 10px;
   background-color: #191765;
   position: fixed;
-  z-index: 55;
+  z-index: 999;
   background-image: url(./images/mobileMenu2.svg);
   background-repeat: no-repeat;
 }
@@ -69,7 +73,7 @@ a {
   display: flex;
 }
 
-.fa-times {
+#closeIcon {
   text-align: end;
   color: #fff;
   width: 33.33px;
@@ -208,6 +212,148 @@ hr {
   width: 18px;
 }
 
+.work-popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:#191765;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 50;
+  overflow-y: scroll;
+}
+
+.popup-div {
+  position: relative;
+  width: 80%;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.16);
+  margin: 24px 0;
+  row-gap: 15px;
+}
+
+.work-popup.open {
+  display: flex;
+}
+
+.header-popup {
+  position: relative;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-popup {
+  position: relative;
+  width: 90%;
+  font-size: 20px;
+  line-height: 12px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.whatever {
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.project-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  row-gap: 10px;
+}
+
+.image-popup {
+  width: 100%;
+  position: relative;
+  height: 60%;
+}
+
+.info-popup {
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+}
+
+.info-popup p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.info-popup ul {
+  width: 100%;
+  column-gap: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-popup {
+  width: 25%;
+  padding: 5px;
+  border-right: 1px solid #646369;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#left-border {
+  border-left: 1px solid #646369;
+}
+
+.popup-buttons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8%;
+  width: 100%;
+}
+
+.popup-buttons button {
+  width: 50%;
+  height: 50px;
+  background-color: #7d73fc;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.popup-buttons button:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+.popup-buttons button p {
+  margin-left: 10px;
+}
+
 .arrow {
   width: 15px;
   color: #c4c4c4;
@@ -289,14 +435,12 @@ hr {
   border: none;
   margin: 24px auto;
   font-size: 12px;
-  transform: rotate(0deg) scale(1) translateZ(0);
-  transition: all 0.4s ease-in-out;
   cursor: pointer;
 }
 
 .btn:hover {
   box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
-  transform: rotate(10deg) scale(1.1);
+  transform: translateY(-1px) scale(1.1);
 }
 
 .works-wrapper {
@@ -377,6 +521,37 @@ form :last-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#lastbtn {
+  width: 89px;
+  height: 48px;
+  background-color: #9390ff;
+  color: #fff;
+  border: none;
+  margin: 24px auto;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#lastbtn:hover {
+  box-shadow: 0 0 50px rgba(125, 115, 252, 0.48);
+  transform: translateY(-1px) scale(1.1);
+}
+
+#pop-window {
+width: 327px;
+margin: 0 auto;
+display: none;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 2px solid red;
+height: 837px;
+}
+
+#pop-window.active {
+  display: flex;
 }
 
 @media (min-width: 600px) {
@@ -486,6 +661,13 @@ form :last-child {
     justify-content: center;
     align-items: center;
   }
+
+  .popup-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    column-gap: 50px;
+  }
 }
 
 @media (min-width: 800px) {
@@ -510,6 +692,16 @@ form :last-child {
 
   .nav-ul {
     display: flex;
+  }
+
+  .work-popup {
+    background-image: url(images/circlesheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .info-popup {
+    width: 60%;
   }
 }
 
