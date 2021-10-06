@@ -86,13 +86,12 @@ openPopup.forEach((e) => {
 
 const id = (id) => document.getElementById(id);
 const classes = (classes) => document.getElementsByClassName(classes);
-const username = id('name');
 const email = id('email');
 const form = id('form');
 const errorMsg = classes('error');
 const emailRegex = /^[a-z]+@[a-z]+\.[a-z0-9-.]+$/;
 
-let validation = (id, serial, message) => {
+const validation = (id, serial, message) => {
   if (!emailRegex.test(id)) {
     errorMsg[serial].innerHTML = message;
     id.style.border = '2px solid red';
