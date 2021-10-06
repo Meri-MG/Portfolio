@@ -69,18 +69,3 @@ window.addEventListener('DOMContentLoaded', () => {
     popup.classList.remove('open');
   });
 });
-
-window.addEventListener('scroll', () => {
-  const scroll = this.pageYOffset;
-  if(scroll > 50) {
-    overlay.classList.remove('active')
-  }
-});
-
-openPopup.forEach((e) => {
-  e.addEventListener('click', () => {
-    popup.classList.add('open');
-    mainBody.classList.add('fixed');
-  });
-});
-
