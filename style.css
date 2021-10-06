@@ -216,7 +216,7 @@ hr {
   position: absolute;
   top: 0;
   left: 0;
-  background-color:#191765;
+  background-color: #191765;
   width: 100%;
   height: 100vh;
   display: none;
@@ -234,7 +234,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:rgba(255, 255, 255, 0.16);
+  background-color: rgba(255, 255, 255, 0.16);
   margin: 24px 0;
   row-gap: 15px;
 }
@@ -350,6 +350,16 @@ hr {
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
+.works p {
+  width: 100%;
+  color: #dcdce8;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 24px auto;
+  text-align: start;
+}
+
 .popup-buttons button p {
   margin-left: 10px;
 }
@@ -393,16 +403,6 @@ hr {
   font-size: 32px;
   line-height: 44px;
   margin: 24px auto;
-}
-
-.works p {
-  width: 100%;
-  color: #dcdce8;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  margin: 24px auto;
-  text-align: start;
 }
 
 .grid-container {
@@ -540,14 +540,14 @@ form :last-child {
 }
 
 #pop-window {
-width: 327px;
-margin: 0 auto;
-display: none;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: 2px solid red;
-height: 837px;
+  width: 327px;
+  margin: 0 auto;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  height: 837px;
 }
 
 #pop-window.active {
