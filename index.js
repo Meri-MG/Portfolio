@@ -31,6 +31,8 @@ const projects = {
   language2: 'html',
   language3: 'bootstrap',
   language4: 'Ruby',
+  liveLink: 'See Live',
+  sourceLink: 'See Source',
 };
 window.addEventListener('DOMContentLoaded', () => {
   popup.innerHTML = `<div class="popup-div">
@@ -49,12 +51,12 @@ window.addEventListener('DOMContentLoaded', () => {
           <li class="list-popup">${projects.language4}</li>
         </ul>
         <div class="popup-buttons">
-          <button class="btn1">
-              <p>see live</p>
-              <img src="./images/icon-live.png" alt="live-icon">
+          <button  class="btn1">
+          <a href="https://meri-mg.github.io/Portfolio-Microverse/">${projects.liveLink}</a>
+          <img src="./images/icon-live.png" alt="live-icon">
           </button>
           <button class="btn1">
-              <p>see source</p>
+              <a href="https://github.com/Meri-MG/Portfolio-Microverse">${projects.sourceLink}</a>
               <img src="./images/vector.png" alt="source-icon">
           </button>
         </div>

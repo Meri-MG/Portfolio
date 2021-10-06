@@ -360,8 +360,11 @@ hr {
   text-align: start;
 }
 
-.popup-buttons button p {
+.popup-buttons button a {
   margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .arrow {
