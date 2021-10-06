@@ -96,3 +96,13 @@ form.addEventListener ('submit', (e) => {
   e.preventDefault();
   validation(email, 1, "Email should be written in lowercase");
 })
+let validation = (id, serial, message) => {
+  if (!emailRegex.test(id)) {
+    errorMsg[serial].innerHTML = message;
+    id.style.border = "2px solid red";
+  }
+  else {
+    errorMsg.innerHTML = '';
+    id.style.border = "2px solid black";
+  }
+}
