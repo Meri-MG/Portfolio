@@ -92,17 +92,18 @@ let form = id('form');
 let errorMsg = classes('error');
 let emailRegex = /^[a-z]+@[a-z]+\.[a-z0-9-.]+$/;
 
-form.addEventListener ('submit', (e) => {
-  e.preventDefault();
-  validation(email, 1, "Email should be written in lowercase");
-})
 let validation = (id, serial, message) => {
   if (!emailRegex.test(id)) {
     errorMsg[serial].innerHTML = message;
-    id.style.border = "2px solid red";
+    id.style.border = '2px solid red';
   }
   else {
     errorMsg.innerHTML = '';
-    id.style.border = "2px solid black";
+    id.style.border = '2px solid black';
   }
-}
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validation(email, 1, 'Email should be written in lowercase');
+});
