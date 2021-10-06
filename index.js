@@ -83,3 +83,16 @@ openPopup.forEach((e) => {
     mainBody.classList.add('fixed');
   });
 });
+
+let id = (id) => document.getElementById(id);
+let classes = (classes) => document.getElementsByClassName(classes);
+let username = id('name');
+let email = id('email');
+let form = id('form');
+let errorMsg = classes('error');
+let emailRegex = /^[a-z]+@[a-z]+\.[a-z0-9-.]+$/;
+
+form.addEventListener ('submit', (e) => {
+  e.preventDefault();
+  validation(email, 1, "Email should be written in lowercase");
+})

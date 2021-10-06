@@ -501,6 +501,13 @@ form :last-child {
   align-self: center;
 }
 
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+  color: red;
+}
+
+
 #lastul {
   padding: 0;
 }

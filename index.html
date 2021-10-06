@@ -206,10 +206,12 @@
                 <p id="conttext">If you have an application you are interested in 
                     developing, a feature that you need built or a project that needs coding.
                     I’d love to help with it </p>
-                <form action="https://formspree.io/f/xvodlvop" method="POST">
-                                <input type="text" id="name" placeholder="Enter your full name" maxlength="30" required>
-                                <input type="email" id="email" placeholder="jondoe@mail.com" required>
-                                <textarea name="text" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
+                <form action="https://formspree.io/f/xvodlvop" method="POST" id="form">
+                                <input type="text" id="name" placeholder="Enter your full name" maxlength="30">
+                                <div class="error"></div>
+                                <input type="email" id="email" placeholder="jondoe@mail.com">
+                                <div class="error"></div>
+                                <textarea name="text" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Enter text here"></textarea>
                                 <button type="submit" id="lastbtn">Send</button>
                 </form>
                         <hr class="last-hr">
