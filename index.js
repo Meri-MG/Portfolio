@@ -87,17 +87,15 @@ openPopup.forEach((e) => {
 const id = (id) => document.getElementById(id);
 const classes = (classes) => document.getElementsByClassName(classes);
 const email = id('email');
-const form = id('form');
+const form = document.getElementById('form');
 const errorMsg = classes('error');
-const emailRegex = /^[a-z]+@[a-z]+\.[a-z0-9-.]+$/;
 
 const validation = (id, serial, message) => {
-  if (!emailRegex.test(id)) {
+  if (id.value !== id.value.toLowerCase()) {
     errorMsg[serial].innerHTML = message;
     id.style.border = '2px solid red';
   } else {
     errorMsg.innerHTML = '';
-    id.style.border = '2px solid black';
   }
 };
 
