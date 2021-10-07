@@ -87,7 +87,7 @@ openPopup.forEach((e) => {
 const id = (id) => document.getElementById(id);
 const classes = (classes) => document.getElementsByClassName(classes);
 const email = id('email');
-const form = document.getElementById('form');
+const form = id('form');
 const errorMsg = classes('error');
 
 const validation = (id, serial, message) => {
@@ -96,6 +96,7 @@ const validation = (id, serial, message) => {
     id.style.border = '2px solid red';
   } else {
     errorMsg.innerHTML = '';
+    form.submit();
   }
 };
 
