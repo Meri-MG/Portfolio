@@ -58,8 +58,8 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 325px;
-  height: 812px;
+  min-width: 87.2%;
+  height: 100vh;
   left: 10px;
   top: 10px;
   background-color: #191765;
@@ -67,6 +67,7 @@ a {
   z-index: 999;
   background-image: url(./images/mobileMenu2.svg);
   background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 .mobile-ul.active {
@@ -501,6 +502,12 @@ form :last-child {
   align-self: center;
 }
 
+.error {
+  font-size: 14.5px;
+  margin-top: 5px;
+  color: red;
+}
+
 #lastul {
   padding: 0;
 }
@@ -685,7 +692,6 @@ form :last-child {
   }
 
   .fab:hover {
-    /* color: #7d73fc; */
     border-bottom: 1px solid #fff;
   }
 

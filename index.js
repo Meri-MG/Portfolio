@@ -83,3 +83,24 @@ openPopup.forEach((e) => {
     mainBody.classList.add('fixed');
   });
 });
+
+const id = (id) => document.getElementById(id);
+const classes = (classes) => document.getElementsByClassName(classes);
+const email = id('email');
+const form = id('form');
+const errorMsg = classes('error');
+
+const validation = (id, serial, message) => {
+  if (id.value !== id.value.toLowerCase()) {
+    errorMsg[serial].innerHTML = message;
+    id.style.border = '2px solid red';
+  } else {
+    errorMsg.innerHTML = '';
+    form.submit();
+  }
+};
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  validation(email, 1, 'Email should be written in lowercase');
+});
