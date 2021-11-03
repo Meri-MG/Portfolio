@@ -58,7 +58,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  min-width: 87.2%;
+  min-width: 325px;
   height: 100vh;
   left: 10px;
   top: 10px;
@@ -66,8 +66,8 @@ a {
   position: fixed;
   z-index: 999;
   background-image: url(./images/mobileMenu2.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  scroll-behavior: smooth;
 }
 
 .mobile-ul.active {
@@ -96,7 +96,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 250px;
+  min-width: 250px;
   color: #edecff;
 }
 
@@ -224,7 +224,6 @@ hr {
   flex-direction: column;
   align-items: center;
   z-index: 50;
-  overflow-y: scroll;
 }
 
 .popup-div {
@@ -450,6 +449,7 @@ hr {
 .works-wrapper {
   background-image: url(images/portBG.svg);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 footer {
