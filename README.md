@@ -1,5 +1,5 @@
 # Portfolio-mobile-version
-> In this project we are meant to make mobile and desktop version of portfolio according to [figma templates](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122)
+> This is personal portfolio where will be updated the projects which were accomplished. The design of Portfolio followed [figma templates](https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=39%3A122)
 
 ![Contact Form](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/ContactForm.png)
 ![Desktop-Headline](https://raw.github.com/Meri-MG/Portfolio-mobile-version/main/images/Dheadline.png)
