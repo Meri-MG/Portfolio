@@ -128,3 +128,5 @@ const displayData = () => {
   document.getElementById('email').value = data.formEmail;
   document.getElementById('textarea').value = data.formMsg;
 };
+
+displayData();
