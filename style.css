@@ -730,4 +730,8 @@ form :last-child {
     padding: 24px;
     height: max-content;
   }
+
+  #first-img {
+    width: 65%;
+  }
 }
