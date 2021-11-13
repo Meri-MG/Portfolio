@@ -31,8 +31,8 @@ const projects = {
   language2: 'html',
   language3: 'bootstrap',
   language4: 'Ruby',
-  liveLink: 'https://meri-mg.github.io/Portfolio/',
-  sourceLink: 'https://github.com/Meri-MG/Portfolio',
+  liveLink: 'https://meri-mg.github.io/Yoga-Retreat-Page/',
+  sourceLink: 'https://github.com/Meri-MG/Yoga-Retreat-Page',
 };
 window.addEventListener('DOMContentLoaded', () => {
   popup.innerHTML = `<div class="popup-div">
