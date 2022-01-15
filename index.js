@@ -32,7 +32,7 @@ const projects = [
     img: 'images/speakers.png',
     language1: 'CSS',
     language2: 'HTML',
-    language3: 'bootstrap',
+    language3: 'Bootstrap',
     language4: 'JavaScript',
     liveLink: 'https://meri-mg.github.io/Yoga-Retreat-Page/',
     sourceLink: 'https://github.com/Meri-MG/Yoga-Retreat-Page',
