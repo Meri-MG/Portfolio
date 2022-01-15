@@ -119,7 +119,6 @@ const displayProjects = (index) => {
   });
   const popupDIV = document.querySelector('.popup-div');
   const closedPopup = document.querySelector('.closingIcon');
-  console.log(popupDIV, closedPopup);
   closedPopup.addEventListener('click', (e) => {
     mainBody.classList.remove('fixed');
     popup.classList.remove('open');
