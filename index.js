@@ -78,13 +78,6 @@ const projects = [
   },
 ];
 
-const clearElement = (element) => {
-  while (element.firstChild) {
-    element.removeChild(element.firstChild);
-  }
-};
-
-// window.addEventListener('DOMContentLoaded', () => {
 const displayProjects = (index) => {
   const modalHTML = (project) => {
     return `<div class="popup-div" id="${index}">
@@ -123,12 +116,15 @@ const displayProjects = (index) => {
       popup.classList.add('open');
       mainBody.classList.add('fixed');
     }
-    const closedPopup = document.querySelector('.closingIcon');
-    console.log(closedPopup);
-    closedPopup.addEventListener('click', () => {
-      mainBody.classList.remove('fixed');
-      popup.classList.remove('open');
-    });
+  });
+  const popupDIV = document.querySelector('.popup-div');
+  const closedPopup = document.querySelector('.closingIcon');
+  console.log(popupDIV, closedPopup);
+  closedPopup.addEventListener('click', (e) => {
+    mainBody.classList.remove('fixed');
+    popup.classList.remove('open');
+    popupDIV.remove();
+    e.preventDefault();
   });
 };
 
@@ -143,9 +139,6 @@ openPopup.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     if (index === projects[index].id) {
       displayProjects(projects[index].id);
-      console.log(index, projects[index].id);
-      // popup.classList.add('open');
-      // mainBody.classList.add('fixed');
     }
   });
 });
