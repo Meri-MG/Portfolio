@@ -73,62 +73,69 @@ const projects = [
     language2: 'HTML',
     language3: 'React',
     language4: 'JavaScript',
-    liveLink: 'https://meri-mg.github.io/API-based-webapp/dist/',
+    liveLink: 'https://meri-mg.github.io/math-magicians---react',
     sourceLink: 'https://github.com/Meri-MG/math-magicians---react',
   },
 ];
 
-// window.addEventListener('DOMContentLoaded', () => {
 const displayProjects = (index) => {
-  console.log(index);
-  const modalHTML = (project) => {
-    `<div class="popup-div" id="${index}">
+  const modalHTML = ({
+    name,
+    img,
+    description,
+    language1,
+    language2,
+    language3,
+    language4,
+    liveLink,
+    sourceLink,
+  }) => {
+    return `<div class="popup-div" id="${index}">
         <div class="header-popup">
-          <h2 class="title-popup">${project.name}</h2>
+          <h2 class="title-popup">${name}</h2>
           <img src="./images/times.png" class="closingIcon" alt="close-icon">
         </div>
         <div class="project-popup">
-          <img src="${project.img}" alt="image-popup" class="image-popup">
+          <img src="${img}" alt="image-popup" class="image-popup">
           <div class="info-popup">
-            <p>${project.description}</p>
+            <p>${description}</p>
             <ul class="">
-              <li class="list-popup" id="left-border">${project.language1}</li>
-              <li class="list-popup">${project.language2}</li>
-              <li class="list-popup">${project.language3}</li>
-              <li class="list-popup">${project.language4}</li>
+              <li class="list-popup" id="left-border">${language1}</li>
+              <li class="list-popup">${language2}</li>
+              <li class="list-popup">${language3}</li>
+              <li class="list-popup">${language4}</li>
             </ul>
             <div class="popup-buttons">
               <button  class="btn1">
-              <a href="${project.liveLink}">See Live</a>
+              <a href="${liveLink}">See Live</a>
               <img src="./images/icon-live.png" alt="live-icon">
               </button>
               <button class="btn1">
-                  <a href="${project.sourceLink}">See Source</a>
+                  <a href="${sourceLink}">See Source</a>
                   <img src="./images/vector.png" alt="source-icon">
               </button>
             </div>
           </div>
         </div>
       </div>`;
-    // const closedPopup = document.querySelector('.closingIcon');
-    // console.log(closedPopup);
-    // closedPopup.addEventListener('click', () => {
-    //   mainBody.classList.remove('fixed');
-    //   popup.classList.remove('open');
-    // });
   };
+
   projects.forEach((pro) => {
     if (pro.id === index) {
-      console.log(pro);
       popup.innerHTML += modalHTML(pro);
       popup.classList.add('open');
       mainBody.classList.add('fixed');
     }
   });
+  const popupDIV = document.querySelector('.popup-div');
+  const closedPopup = document.querySelector('.closingIcon');
+  closedPopup.addEventListener('click', (e) => {
+    mainBody.classList.remove('fixed');
+    popup.classList.remove('open');
+    popupDIV.remove();
+    e.preventDefault();
+  });
 };
-// });
-// const closingIcon = document.querySelector('.closingIcon');
-// console.log(closingIcon);
 
 window.addEventListener('scroll', () => {
   const scroll = this.pageYOffset;
@@ -141,9 +148,6 @@ openPopup.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     if (index === projects[index].id) {
       displayProjects(projects[index].id);
-      console.log(index, projects[index].id);
-      // popup.classList.add('open');
-      // mainBody.classList.add('fixed');
     }
   });
 });

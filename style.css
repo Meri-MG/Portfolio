@@ -704,7 +704,7 @@ form :last-child {
     display: none;
   }
 
-  .fa-bars:before {
+  .fa-bars::before {
     display: none;
   }
 
