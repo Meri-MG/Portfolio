@@ -1,244 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio-Meri-MG</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" crossorigin="anonymous" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      crossorigin="anonymous"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"
+    ></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEV5VTLPZB"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEV5VTLPZB"
+    ></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'G-WEV5VTLPZB');
+      gtag('config', 'G-WEV5VTLPZB');
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <header class="container header">
-            <div class="flex-wrapper">
-                <h2 class="logo-name">
-                    <a href="#" class="logo">Meri-MG</a>
-                </h2>
-                <nav>
-                    <ul class="nav-ul">
-                        <li><a href="#" class="bar-menu" title="bar-menu"><i class="fas fa-bars"></i></a></li>
-                        <li><a href="#" class="mobile-hidden-menu" title="bar-menu">Portfolio</a></li>
-                        <li><a href="#" class="mobile-hidden-menu" title="bar-menu">About</a></li>
-                        <li><a href="#" class="mobile-hidden-menu" title="bar-menu">Contact</a></li>
-                        <li><a href="#" class="mobile-hidden-menu" title="bar-menu"><i class="far fa-envelope"></i></a></li>
-                    </ul>
-                
-                    <ul id="menu" class="mobile-ul">
-                        <li class="times"><a id="closeIcon"><i class="fas fa-times"></i></a></li>
-                        <li class="mobile-menu"><a  href="#portfolio" ><span>Portfolio</span> <span class="arrows">></span></a></li>
-                        <li class="mobile-menu"><a href="#about" ><span>About</span> <span class="arrows">></span></a></li>
-                        <li class="mobile-menu"><a href="#contact" ><span>Contact</span><span class="arrows">></span></a></li>
-                        
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div class="bgImage">
+      <header class="container header">
+        <div class="flex-wrapper">
+          <h2 class="logo-name">
+            <a href="#" class="logo">Meri-MG</a>
+          </h2>
+          <nav>
+            <ul class="nav-ul">
+              <li>
+                <a href="#" class="bar-menu" title="bar-menu"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" class="mobile-hidden-menu" title="bar-menu"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#" class="mobile-hidden-menu" title="bar-menu"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#" class="mobile-hidden-menu" title="bar-menu"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="mobile-hidden-menu" title="bar-menu"
+                  ><i class="far fa-envelope"></i
+                ></a>
+              </li>
+            </ul>
+
+            <ul id="menu" class="mobile-ul">
+              <li class="times">
+                <a id="closeIcon"><i class="fas fa-times"></i></a>
+              </li>
+              <li class="mobile-menu">
+                <a href="#portfolio"
+                  ><span>Portfolio</span> <span class="arrows">></span></a
+                >
+              </li>
+              <li class="mobile-menu">
+                <a href="#about"
+                  ><span>About</span> <span class="arrows">></span></a
+                >
+              </li>
+              <li class="mobile-menu">
+                <a href="#contact"
+                  ><span>Contact</span><span class="arrows">></span></a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="bgImage">
         <section class="container headline" id="about">
-            <h1>Meri Gogichashvili</h1>
-            <h2>Software Developer</h2>
-<div class="about-wrapper">
-    <p>I can help you build a product , feature or website Look through some of my work a
-        nd experience! If you like what you see and have a project you need coded, don’t 
-        hesitate to contact me.
-    </p>
-    <hr>
-    <div class="info-wrapper">
-        <ul>
-            <li class="list-header">Language</li>
-            <li class="list">Javascript</li>
-            <li class="list">Ruby</li>
-            <li class="list">Html</li>
-            <li class="list">Css</li>
-        </ul>
-        <ul>
-            <li class="list-header">Frameworks</li>
-            <li class="list">Bootstrap</li>
-            <li class="list">Ruby on Rails</li>
-            <li class="list">RSPeC</li>
-            <li class="list">CapyBara</li>
-            <li class="list">Selenium</li>
-        </ul>
-        <ul>
-            <li class="list-header">Skills</li>
-            <li class="list">Codekit</li>
-            <li class="list">Github</li>
-            <li class="list">Codepen</li>
-            <li class="list">Gitlab</li>
-            <li class="list">Terminal</li>
-        </ul>
-    </div>
-</div>
-        <hr>
-            <div class="flex-icons">
-                <div class="work-image-icons">
-                    <img src="images/Group55.png" alt="down-arrow">
-                    <a href="#" class="work-image">Work</a>
-                </div>
-                <ul>
-                    <li>
-                        <a href="#" title="icons"><i class="fab fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" title="icons"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" title="icons"><i class="fab fa-angellist"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" title="icons"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" title="icons"><i class="fab fa-medium-m"></i></a>
-                    </li>
-                </ul>
-                <div class="work-image-icons">
-                    <img src="images/Group55.png" alt="down-arrow">
-                    <a href="#" class="work-image">Work</a>
-                </div>
-                <div class="work-images">
-                    <img class="arrow" src="images/Group55.png" alt="down-arrow">
-                    <a href="#" class="work-image">Work</a>
-                </div>
+          <h1>Meri Gogichashvili</h1>
+          <h2>Software Developer</h2>
+          <div class="about-wrapper">
+            <p>
+              I can help you build a product , feature or website Look through
+              some of my work a nd experience! If you like what you see and have
+              a project you need coded, don’t hesitate to contact me.
+            </p>
+            <hr />
+            <div class="info-wrapper">
+              <ul>
+                <li class="list-header">Language</li>
+                <li class="list">JavaScript</li>
+                <li class="list">HTML</li>
+                <li class="list">CSS</li>
+              </ul>
+              <ul>
+                <li class="list-header">Frameworks</li>
+                <li class="list">Bootstrap</li>
+                <li class="list">React/Redux</li>
+                <li class="list">preprocessor:</li>
+                <li class="list">Sass</li>
+              </ul>
+              <ul>
+                <li class="list-header">Skills</li>
+                <li class="list">Github</li>
+                <li class="list">VScode</li>
+                <li class="list">Git</li>
+                <li class="list">Terminal</li>
+              </ul>
             </div>
-    </section>
-</div> 
-<section class="work-popup"></section>
-        <div class="works-wrapper">
-            <div class="bgimage2">
-            <section class="container works" id="portfolio">
-                <h2 class="works-h2">My Recent Work</h2>
-                <hr>
-                <div class="container image-stories">
-                    <img class="placeholder" src="images/desktop.png" alt="image-placeholder" id="first-img">
-                    <div class="stories">
-                        <h3>Yoga Retreat</h3>
-                        <p>This is my first capstone project in Microverse. 
-                            A website is about fictional yoga retreat that would be held in Thailand. The Project is responsive and fits all the screen sizes.</p>
-                            <ul class="grid-container">
-                                <li class="item1">css</li>
-                                <li class="vl"></li>
-                                <li class="item1">html</li>
-                                <li class="vl"></li>
-                                <li class="item1">bootstrap</li>
-                                <li class="vl"></li>
-                                <li class="item1">Ruby</li>
-                            </ul>
-                        <button type="button" class="btn" id="projectId">See Project</button>
-                </div>
+          </div>
+          <hr />
+          <div class="flex-icons">
+            <div class="work-image-icons">
+              <img src="images/Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+            <ul>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-angellist"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" title="icons"><i class="fab fa-medium-m"></i></a>
+              </li>
+            </ul>
+            <div class="work-image-icons">
+              <img src="images/Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+            <div class="work-images">
+              <img class="arrow" src="images/Group55.png" alt="down-arrow" />
+              <a href="#" class="work-image">Work</a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="work-popup"></section>
+      <div class="works-wrapper">
+        <div class="bgimage2">
+          <section class="container works" id="portfolio">
+            <h2 class="works-h2">My Recent Work</h2>
+            <hr />
+            <div class="container image-stories">
+              <img
+                class="placeholder"
+                src="images/desktop.png"
+                alt="image-placeholder"
+                id="first-img"
+              />
+              <div class="stories">
+                <h3>Yoga Retreat</h3>
+                <p>
+                  This is my first capstone project in Microverse. A website is
+                  about fictional yoga retreat that would be held in Thailand.
+                  The Project is responsive and fits all the screen sizes.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">css</li>
+                  <li class="vl"></li>
+                  <li class="item1">html</li>
+                  <li class="vl"></li>
+                  <li class="item1">bootstrap</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories reverse">
+              <img
+                class="placeholder"
+                src="images/todo.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>To Do App</h3>
+                <p>
+                  In this project was built a simple list of To Do tasks. The
+                  user can add, edit, check completed and delete the tasks. This
+                  simple web page was built using webpack and served by a
+                  webpack dev server.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">css</li>
+                  <li class="vl"></li>
+                  <li class="item1">html</li>
+                  <li class="vl"></li>
+                  <li class="item1">bootstrap</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories">
+              <img
+                class="placeholder"
+                src="images/webapp.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>API based webapp</h3>
+                <p>
+                  This website helps with discoverability of relevant Astronomy
+                  Picture of the Day. User can interact with the website through
+                  the likes and comments.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">css</li>
+                  <li class="vl"></li>
+                  <li class="item1">html</li>
+                  <li class="vl"></li>
+                  <li class="item1">bootstrap</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+            <div class="container image-stories reverse">
+              <img
+                class="placeholder"
+                src="images/calc.png"
+                alt="image-placeholder"
+              />
+              <div class="stories">
+                <h3>Math Magicians</h3>
+                <p>
+                  This is a simple calculator app created with React where user
+                  can perform basic math operations.
+                </p>
+                <ul class="grid-container">
+                  <li class="item1">css</li>
+                  <li class="vl"></li>
+                  <li class="item1">html</li>
+                  <li class="vl"></li>
+                  <li class="item1">JavaScript</li>
+                  <li class="vl"></li>
+                  <li class="item1">React</li>
+                </ul>
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+          </section>
         </div>
-        <div class="container image-stories reverse">
-                <img class="placeholder" src="images/placeholder.png" alt="image-placeholder">
-                    <div class="stories">
-                        <h3>Multi-Post Stories</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups 
-                            required. has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a standard dummy text.</p>
-                            <ul class="grid-container">
-                                <li class="item1">css</li>
-                                <li class="vl"></li>
-                                <li class="item1">html</li>
-                                <li class="vl"></li>
-                                <li class="item1">bootstrap</li>
-                                <li class="vl"></li>
-                                <li class="item1">Ruby</li>
-                            </ul>
-                        <button type="button" class="btn">See Project</button>
-                </div>
-        </div>
-        <div class="container image-stories">
-                <img class="placeholder" src="images/placeholder.png" alt="image-placeholder">
-                    <div class="stories">
-                        <h3>Multi-Post Stories</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups 
-                            required. has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a standard dummy text.</p>
-                            <ul class="grid-container">
-                                <li class="item1">css</li>
-                                <li class="vl"></li>
-                                <li class="item1">html</li>
-                                <li class="vl"></li>
-                                <li class="item1">bootstrap</li>
-                                <li class="vl"></li>
-                                <li class="item1">Ruby</li>
-                            </ul>
-                        <button type="button" class="btn">See Project</button>
-                </div>
-        </div>
-        <div class="container image-stories reverse">
-                <img class="placeholder" src="images/placeholder.png" alt="image-placeholder">
-                    <div class="stories">
-                        <h3>Multi-Post Stories</h3>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups 
-                            required. has been the industry's standard dummy text ever since the 1500s, 
-                            when an unknown printer took a standard dummy text.</p>
-                        <ul class="grid-container">
-                            <li class="item1">css</li>
-                            <li class="vl"></li>
-                            <li class="item1">html</li>
-                            <li class="vl"></li>
-                            <li class="item1">bootstrap</li>
-                            <li class="vl"></li>
-                            <li class="item1">Ruby</li>
-                        </ul>
-                        <button type="button" class="btn">See Project</button>
-                </div>
-        </div>
-            </section>
-        </div>
-            <footer class="container" id="contact">
-                <h2 id="conttitle">CONTACT US</h2>
-                <p id="conttext">If you have an application you are interested in 
-                    developing, a feature that you need built or a project that needs coding.
-                    I’d love to help with it </p>
-                <form action="https://formspree.io/f/xqkwjgqg" method="POST" id="form">
-                                <input type="text" id="name" placeholder="Enter your full name" maxlength="30" required>
-                                <div class="error"></div>
-                                <input type="email" id="email" placeholder="jondoe@mail.com" required>
-                                <div class="error"></div>
-                                <textarea name="text" id="textarea" cols="30" rows="10" maxlength="500" placeholder="Enter text here" required></textarea>
-                                <button type="submit" id="lastbtn">Send</button>
-                </form>
-                        <hr class="last-hr">
-                        <div class="flex-icons last">
-                            <ul id="lastul">
-                                    <li>
-                                            <a class="social" href="#" title="icons"><i class="fab fa-github"></i></a>
-                                    </li>
-                                    <li>
-                                            <a class="social" href="#" title="icons"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                    <li>
-                                            <a class="social" href="#" title="icons"><i class="fab fa-angellist"></i></a>
-                                    </li>
-                                    <li>
-                                            <a class="social" href="#" title="icons"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                            <a class="social" href="#" title="icons"><i class="fab fa-medium-m"></i></a>
-                                    </li>
-                            </ul>
-                            <p id="mymail">mgogi13@freeuni.edu.ge</p>
-
-                    </div>
-
-            </footer>
-        </div>  
+        <footer class="container" id="contact">
+          <h2 id="conttitle">CONTACT ME</h2>
+          <p id="conttext">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form
+            action="https://formspree.io/f/xqkwjgqg"
+            method="POST"
+            id="form"
+          >
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your full name"
+              maxlength="30"
+              required
+            />
+            <div class="error"></div>
+            <input
+              type="email"
+              id="email"
+              placeholder="jondoe@mail.com"
+              required
+            />
+            <div class="error"></div>
+            <textarea
+              name="text"
+              id="textarea"
+              cols="30"
+              rows="10"
+              maxlength="500"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <button type="submit" id="lastbtn">Send</button>
+          </form>
+          <hr class="last-hr" />
+          <div class="flex-icons last">
+            <ul id="lastul">
+              <li>
+                <a
+                  class="social"
+                  href="https://github.com/Meri-MG"
+                  title="icons"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="social"
+                  href="https://www.linkedin.com/in/meri-gogichashvili-457297218/"
+                  title="icons"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-angellist"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a class="social" href="#" title="icons"
+                  ><i class="fab fa-medium-m"></i
+                ></a>
+              </li>
+            </ul>
+            <p id="mymail">mekomerikomg@gmail.com</p>
+          </div>
+        </footer>
+      </div>
     </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
