@@ -73,16 +73,21 @@ const projects = [
     language2: 'HTML',
     language3: 'React',
     language4: 'JavaScript',
-    liveLink: 'https://meri-mg.github.io/API-based-webapp/dist/',
+    liveLink: 'https://meri-mg.github.io/math-magicians---react',
     sourceLink: 'https://github.com/Meri-MG/math-magicians---react',
   },
 ];
 
+const clearElement = (element) => {
+  while (element.firstChild) {
+    element.removeChild(element.firstChild);
+  }
+};
+
 // window.addEventListener('DOMContentLoaded', () => {
 const displayProjects = (index) => {
-  console.log(index);
   const modalHTML = (project) => {
-    `<div class="popup-div" id="${index}">
+    return `<div class="popup-div" id="${index}">
         <div class="header-popup">
           <h2 class="title-popup">${project.name}</h2>
           <img src="./images/times.png" class="closingIcon" alt="close-icon">
@@ -110,25 +115,22 @@ const displayProjects = (index) => {
           </div>
         </div>
       </div>`;
-    // const closedPopup = document.querySelector('.closingIcon');
-    // console.log(closedPopup);
-    // closedPopup.addEventListener('click', () => {
-    //   mainBody.classList.remove('fixed');
-    //   popup.classList.remove('open');
-    // });
   };
+
   projects.forEach((pro) => {
     if (pro.id === index) {
-      console.log(pro);
       popup.innerHTML += modalHTML(pro);
       popup.classList.add('open');
       mainBody.classList.add('fixed');
     }
+    const closedPopup = document.querySelector('.closingIcon');
+    console.log(closedPopup);
+    closedPopup.addEventListener('click', () => {
+      mainBody.classList.remove('fixed');
+      popup.classList.remove('open');
+    });
   });
 };
-// });
-// const closingIcon = document.querySelector('.closingIcon');
-// console.log(closingIcon);
 
 window.addEventListener('scroll', () => {
   const scroll = this.pageYOffset;
