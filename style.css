@@ -419,9 +419,13 @@ hr {
 }
 
 .grid-container .item1 {
-  width: 34px;
+  width: 32px;
   color: #fff;
   font-weight: 500;
+}
+
+.grid-container .item1.markup {
+  padding-right: 5px;
 }
 
 .vl {
