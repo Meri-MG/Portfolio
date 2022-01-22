@@ -65,16 +65,16 @@ const projects = [
   },
   {
     id: 3,
-    name: 'Math Magicians',
+    name: 'Bookstore',
     description:
-      'This is a simple calculator app created with React where user can perform basic math operations',
-    img: 'images/calc.png',
+      'A single-page app that allows users store some of their favorite books. It lets users add their favorite books to the list and post them to an API. This project was built using Javascript, React-redux',
+    img: 'images/Bookstore.png',
     language1: 'CSS',
-    language2: 'HTML',
+    language2: 'Redux',
     language3: 'React',
     language4: 'JavaScript',
-    liveLink: 'https://meri-mg.github.io/math-magicians---react',
-    sourceLink: 'https://github.com/Meri-MG/math-magicians---react',
+    liveLink: 'https://heuristic-goldstine-557bec.netlify.app/',
+    sourceLink: 'https://github.com/Meri-MG/bookstore---react',
   },
 ];
 
