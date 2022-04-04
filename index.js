@@ -65,16 +65,16 @@ const projects = [
   },
   {
     id: 3,
-    name: 'Bookstore',
+    name: 'FakeStore',
     description:
-      'A single-page app that allows users store some of their favorite books. It lets users add their favorite books to the list and post them to an API. This project was built using Javascript, React-redux',
-    img: 'images/Bookstore.png',
+      'This is a web application that provides information on each product of the store, allowing users to filter through the results',
+    img: 'images/homePage.png',
     language1: 'CSS',
     language2: 'Redux',
     language3: 'React',
     language4: 'JavaScript',
-    liveLink: 'https://heuristic-goldstine-557bec.netlify.app/',
-    sourceLink: 'https://github.com/Meri-MG/bookstore---react',
+    liveLink: 'https://angry-yalow-17c6ab.netlify.app/',
+    sourceLink: 'https://github.com/Meri-MG/metrics-webapp---react',
   },
 ];
 
